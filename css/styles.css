@@ -17,7 +17,7 @@
 }
 
 .section-home {
-  background-color: #c4daf7;
+  background-color: rgb(115, 148, 107);
 }
 
 .titulo-inicio {
@@ -30,7 +30,7 @@
 
 .titulo-inicio h2 {
   text-align: center;
-  color: #333333;
+  color: rgb(115, 148, 107);
   font-size: 30px;
   text-transform: capitalize;
 }
@@ -38,7 +38,7 @@
 .titulo-inicio p {
   text-align: center;
   margin: 15px 0;
-  color: #515151;
+  color: rgb(115, 148, 107);
   font-size: 14px;
 }
 
@@ -53,7 +53,7 @@
   text-align: center;
   text-transform: capitalize;
   padding: 10px;
-  border: 1px solid #4a90e2;
+  border: 1px solid rgb(115, 148, 107);
   border-radius: 15px;
   width: 150px;
   cursor: pointer;
@@ -65,7 +65,7 @@
 }
 
 .btn-novedades {
-  background-color: #4a90e2;
+  background-color: rgb(115, 148, 107);
 }
 
 /* ------------------------Recomendaciones----------------------------------------------*/
@@ -80,7 +80,7 @@
   align-items: center;
   text-transform: capitalize;
   margin-top: 30px;
-  color: #98c1e2;
+  color: rgb(115, 148, 107);
 }
 
 .home-recomendaciones {
@@ -117,7 +117,7 @@
   text-transform: capitalize;
   bottom: 10px;
   width: 100px;
-  border: 1px solid #33333333;
+  border: 1px solid rgb(115, 148, 107);
   background: linear-gradient(
     to right,
     rgba(255, 255, 255, 1),
@@ -139,7 +139,7 @@
   align-items: center;
   text-transform: capitalize;
   margin-top: 30px;
-  color: #98c1e2;
+  color: rgb(115, 148, 107);
 }
 
 .home-ofertas {
@@ -175,7 +175,7 @@
   bottom: 10px;
   width: 40%;
   height: 30%;
-  border: 1px solid #33333333;
+  border: 1px solid rgb(115, 148, 107);
   background: linear-gradient(
     to right,
     rgba(255, 255, 255, 1),
@@ -206,12 +206,12 @@
   width: 50%;
   gap: 5px;
   text-transform: capitalize;
-  color: #333333;
+  color: rgb(115, 148, 107);
 }
 
 .form-group input,
 textarea {
-  border: 2px solid #4a90e2;
+  border: 2px solid rgb(115, 148, 107);
   padding: 5px;
   border-radius: 5px;
   resize: none;
@@ -246,13 +246,13 @@ textarea {
 }
 
 .footer h3 {
-  color: #4a90e2;
+  color: rgb(115, 148, 107);
   margin-bottom: 2rem;
   text-transform: capitalize;
 }
 
 .footer-bottom {
-  border-top: 1px solid #4a90e2;
+  border-top: 1px solid rgb(115, 148, 107);
   text-align: center;
   padding: 2rem;
 }
@@ -277,7 +277,7 @@ textarea {
   width: fit-content;
 }
 .atajos li:hover {
-  color: #4a90e2;
+  color: rgb(115, 148, 107);
   text-decoration: none;
 }
 

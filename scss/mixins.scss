@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @use "variables" as *;
 
 @mixin flex-center($dir: row, $gap: 0) {
@@ -36,42 +35,3 @@
   text-align: center;
   color: $secondary-color;
 }
-=======
-@use "variables" as *;
-
-@mixin flex-center($dir: row, $gap: 0) {
-  display: flex;
-  flex-direction: $dir;
-  justify-content: center;
-  align-items: center;
-  gap: $gap;
-}
-
-@mixin grid-columns($count: 3) {
-  display: grid;
-  grid-template-columns: repeat($count, 1fr);
-}
-
-@mixin button-style($bg, $color: white) {
-  text-align: center;
-  text-transform: capitalize;
-  padding: 10px;
-  border: 1px solid $primary-color;
-  border-radius: $btn-radius;
-  width: 150px;
-  cursor: pointer;
-  background-color: $bg;
-  color: $color;
-  text-decoration: none;
-}
-
-%text-capitalize {
-  text-transform: capitalize;
-}
-
-%title-style {
-  @extend %text-capitalize;
-  text-align: center;
-  color: $secondary-color;
-}
->>>>>>> efd85b6c2f53dcf6f0a0aa98cb4af3d1f74a9ac3
